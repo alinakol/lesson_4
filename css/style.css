@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/* штифт Larsseit */
+@font-face {
+	font-family:"Larsseit";
+	src: url("../fonts/larsseit/Larsseit-Regular.woff2") format("woff2"),url("../fonts/larsseit/Larsseit-Regular.woff") format("woff");
+	font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+	font-family:"Larsseit";
+	src: url("../fonts/larsseit/Larsseit-Medium.woff2") format("woff2"),url("../fonts/larsseit/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+   font-weight: 500;
+   font-style: normal;
+}
+
+@font-face {
+	font-family:"Larsseit";
+	src: url("../fonts/larsseit/Larsseit-Bold.woff2") format("woff2"),url("../fonts/larsseit/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+
+/* штифт Lato */
+@font-face {
+	font-family:"Lato";
+	src: url(../fonts/lato/Lato-Regular.woff2) format("woff2"), url(../fonts/lato/Lato-Regular.woff) format("woff");
+	font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+	font-family:"Lato";
+	src: url(../fonts/lato/Lato-Bold.woff2) format("woff2"), url(../fonts/lato/Lato-Bold.woff) format("woff");
+	font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+	font-family:"Lato";
+	src: url(../fonts/lato/Lato-Black.woff2) format("woff2"), url(../fonts/lato/Lato-Black.woff) format("woff");
+	font-display: swap;
+   font-weight: 900;
+   font-style: normal;
+}
+
+body{
+	font-family:"Larsseit";
+	font-weight: 400;
+}
+h1, h2{
+	font-family: "lato";
+}
+.repeat {
+	font-weight:700;
+	font-size: 18px;
+	color: darkslategrey;
+}
+.repeat span{
+	color: brown;
+	text-decoration: underline;
+}
+
+.ingred {
+	font-family: "lato";
+	font-weight: 700;
+	font-style: italic;
+	font-size: 20px;
+	color: darkred;
+}
+.cooking {
+font-weight: 500;
+font-size: 20px;
+color:darkgreen;
+}
+h2{
+	font-size: 30px;
+	font-weight: 500;
+	color: rgb(54, 47, 45);
+}
+.top__cook{
+	background-color: pink;
+	font-weight: 700;
+
+}
+h1{
+	font-size: 40px;
+	color: pink;
+}
+.commen{
+	font-weight: 700;
+}
+
+.commen__women{
+	border-radius: 50%
+}
+
+.scoll__list{
+	color: rgb(178, 117, 38);
+	font-size: 18px;
+}
+.text{
+	font-family: "lato";
+	font-weight: 400;
+	font-style: italic;
+}
+
+footer p{
+   font-weight: 700;
+}
+
+.network{
+	width: 30px;
+}
